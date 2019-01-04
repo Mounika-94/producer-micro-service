@@ -9,7 +9,7 @@ import com.perficient.microservices.model.Client;
 @Service("updateStatusService")
 public class UpdateProducerServiceImpl implements UpdateProducerService {
 
-	Client updatedClientRecord = null;
+//	Client updatedClientRecord = null;
 
 	@Autowired
 	private KafkaTemplate<String, Client> kafkaTemplate;
